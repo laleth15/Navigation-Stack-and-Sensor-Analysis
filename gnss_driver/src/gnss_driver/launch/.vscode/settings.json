@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/laleth/Robotic Sensing and Navigation/Lab0/LAB0_ws/devel/lib/python3/dist-packages",
+        "/home/laleth/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

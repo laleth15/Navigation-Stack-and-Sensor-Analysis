@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="imu_driver" type="convert_to_quaternion.py" name="convert_to_quaternion_service" output="screen">
+    </node>
+
+    <arg name="port"/>
+    <node pkg="imu_driver" type="driver.py" name="imu_driver_node" args="$(arg port)" output="screen">
+    </node>
+</launch>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="port"/>
+    <node pkg="gnss_driver" type="driver.py" name="gps_driver_node" args="$(arg port)" output="screen">
+    </node>
+</launch>
